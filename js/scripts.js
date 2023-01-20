@@ -1,4 +1,4 @@
-//Business Logic 
+//Utility Logic 
 window.onload = initialize
 
 function initialize() {
@@ -6,18 +6,31 @@ function initialize() {
     form.onsubmit = takeForm
 }
 
+//Business Logic
+
 function takeForm(event) {
     event.preventDefault()
-    let orignalNumber = parseInt(document.getElementById("userNumber").value)
-    let numberArray = makeNumberArray(orignalNumber)
-    displayArray(numberArray)
+    let userNumber = (document.getElementById('userNumber').value)
+ 
+    //let newUserNumber = makeNumberArray(userNumber)
+    displayArray(userNumberstring)
 }
 
-function makeNumberArray(orignalNumber) {
-    let array = []
-    for(let i = 0; i < orignalNumber i++) {
-        array.push(i)
+function makeNumberArray(userNumber) {
+    const array = [1,2,3];
+    const array = userNumber.split("")
+    for(let i = 0; i <userNumber.length; i++) {
+    if(array.includes(array[i])){
+        array[i] = []
+    }  
     }
+return array
 }
 
+//User Interface Locic 
 
+function displayNumberArray(array) {
+    let outputSpot = document.getElementById("outputSpot")
+    outputSpot.innerText = ""
+    outputSpot.append(numberArray)
+}
