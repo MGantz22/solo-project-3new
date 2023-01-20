@@ -7,3 +7,12 @@ p {
     text-align: center;
     font-size: 300%;
 }
+
+form {
+    text-align: center;
+    font-size: 200%;
+}
+
+.answer {
+    font-size: 250%;
+}
