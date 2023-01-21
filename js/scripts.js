@@ -1,19 +1,27 @@
-//Business logic
-window.onload = initialize
+//business Logic
+function robsTranslator(event) {
+    event.preventDefault();
+    let input = parseInt(document.querySelector("input#number").value)
+    let numbers = []
 
-function initialize(){
-    let form = document.querySelector("userform")
-    form.onsubmit = takeForm
+    for (let i = 0; i <= input; i += 1) {
+        let iString = i.toString();
+        if (iString.includes(3)){
+            numbers.push(" 'Won't you be my neighbor?'");}
+        else if (iString.includes(2)) {
+        numbers.push(" 'Boop!'");
+        } 
+        else if (iString.includes(1)) {
+        numbers.push(" 'Beep!'");
+        } 
+        else {
+        numbers.push(" " + i);
+        }
+        document.getElementById("answer").innerText = numbers;
 }
-
-
-function takeform(event) {
-    event.prevenDefault();
-    let input = parseInt(document.querySelector("number").value)
-    let numberArray = makeNumberArray(input)
-    displayArray(numberArray)
+  //User Interface Logic
 }
-
-   
-//User Interface Locic 
-
+window.addEventListener("load", function() {
+const form = document.getElementById("question");
+form.addEventListener("submit", robsTranslator);
+}); 
