@@ -17,8 +17,8 @@ function robsReplace (event) {
             numbers.push(" Beep! ");
         }
         else {
-        numbers.push(" " + integer);
-    }
+            numbers.push(" " + integer);
+        }    
         document.getElementById("outputspot").innerText = numbers;
     }
 }

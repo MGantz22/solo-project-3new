@@ -1,6 +1,7 @@
 # _Solo-Project-3:_
 
 #### Contributors: 
+###
 # _please feel free to contribute to the code, as a student I'm always open for learning._
 
 #### _A page demonstrating new skills in JavaScript and html_
@@ -16,7 +17,7 @@
 
 ## Description
 
-_This is a project showcasing the skills I've learned so far in the course at Epicodus; This is my Third solo project. On this page you will learn what your destiny is as a programmer and a recommendation on what language is best for you depending on your answers. You will also find a list of my first projects along with links._
+_This is a project showcasing arrays and loops as well as the skills I've learned so far in the course at Epicodus; This is my Third solo project. On this page you can type in a number and receive an output of Robotish translation (an array of user input replacing the numbers 3, 2, 1 with given phrases)._ 
 
 ## Tests
 
@@ -67,10 +68,14 @@ note: Hierarchy order "3, 2, 1".
 
 ## Known Bugs
 
-* _replaced output can only be in single quotes, looked cleaner to leave the single quotes out._
+* _replaced output can only be in single quotes, cleaner to leave the single quotes out._
 
 ## License
 
 _MIT_
 
-Copyright (c) _2023_ _Mitchell Gantz_
+_Please contact me directly or feel free to make a contribution to the code, I am  always open to learning new things. Thank you! Please like, comment and subscribe to see more of me and my work!_
+
+_Here is the link for the project: https://github.com/MGantz22/solo-project-3new.git_
+
+_Copyright (c) _2023_ _Mitchell Gantz_
