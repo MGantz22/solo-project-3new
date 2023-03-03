@@ -1,9 +1,8 @@
 # _Solo-Project-3:_
 
-#### Contributors: 
-###
-# _please feel free to contribute to the code, as a student I'm always open for learning._
 
+
+#### By: Mitchell Gantz
 #### _A page demonstrating new skills in JavaScript and html_
 
 
